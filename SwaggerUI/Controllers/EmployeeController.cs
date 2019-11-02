@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using GettingStartedWithSwaggerUI.Models;
 using Microsoft.AspNetCore.Mvc;
+using SwaggerUI.Models;
 
-namespace GettingStartedWithSwaggerUI.Controllers
+namespace SwaggerUI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

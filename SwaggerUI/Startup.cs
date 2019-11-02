@@ -8,7 +8,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace GettingStartedWithSwaggerUI
+namespace SwaggerUI
 {
     public class Startup
     {

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>GettingStartedWithSwaggerUI</name>
+        <name>SwaggerUI</name>
     </assembly>
     <members>
         <member name="M:GettingStartedWithSwaggerUI.Controllers.EmployeeController.Get">

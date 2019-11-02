@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace GettingStartedWithSwaggerUI.Models
+namespace SwaggerUI.Models
 {
     public class Employee
     {
