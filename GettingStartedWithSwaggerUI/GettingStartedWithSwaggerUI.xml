@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GettingStartedWithSwaggerUI</name>
+    </assembly>
+    <members>
+        <member name="M:GettingStartedWithSwaggerUI.Controllers.EmployeeController.Get">
+            <summary>
+            Gets the list of all Employees.
+            </summary>
+            <returns>The list of Employees.</returns>
+        </member>
+        <member name="M:GettingStartedWithSwaggerUI.Controllers.EmployeeController.Post(GettingStartedWithSwaggerUI.Models.Employee)">
+            <summary>
+            Creates an Employee.
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST api/Employee
+                {        
+                  "firstName": "Mike",
+                  "lastName": "Andrew",
+                  "emailId": "Mike.Andrew@gmail.com"        
+                }
+            </remarks>
+            <param name="employee"></param>
+            <returns>A newly created employee</returns>
+            <response code="201">Returns the newly created item</response>
+            <response code="400">If the item is null</response>          
+        </member>
+    </members>
+</doc>
